@@ -40,7 +40,7 @@ public class Quary {
                     block.setType(Material.AIR);
                 }
             }
-        }
+        } 
         
         Block chestBlock = world.getBlockAt(x, y + 1, z);
         if (chestBlock.getType() != Material.CHEST) {
